@@ -1,0 +1,15 @@
+---
+---
+/* Override theme defaults */
+
+$brand-color: blue;
+
+/* load _sass/minima.scss */
+@import "minima";
+
+/* Put any custom CSS here */
+
+h1 {
+  padding-bottom: 2px;
+  color: #0066b2;
+}

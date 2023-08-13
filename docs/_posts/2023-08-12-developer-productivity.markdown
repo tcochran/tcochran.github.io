@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Starting an exploration of developer productivity"
+title:  "An exploration of developer productivity"
 date:   2023-08-13 15:36:13 -0600
 categories: developer productivity
 ---
+
 I am going to explore the developer productivity topic with a series of posts. Improving developer productivity, has been a massive topic for me over the past year. I am continually asked about how teams and organizations can improve, and particularly how to measure it. This is both from business execs and from technical leaders.
 
 Trying to answer this was part of the focus on my article on [maximizing developer effectiveness][maximizing-developer-effectiveness], which I drafted almost 4 years ago. The core concept was small micro improvements having a large compounding affect to software development. Moreover, it underscored the significance of focusing on the developer outcomes, fostering developer satisfaction and optimizing feedback loops. With the current industry focus I wanted to return to the developer productivity space, expand upon the article, sharing new learnings gained from helping companies be more productive.

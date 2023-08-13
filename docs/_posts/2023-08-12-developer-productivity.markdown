@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "An exploration of developer productivity"
+title:  "Starting an exploration of developer productivity"
 date:   2023-08-13 15:36:13 -0600
 categories: developer productivity
 ---

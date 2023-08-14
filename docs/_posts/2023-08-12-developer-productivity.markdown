@@ -5,11 +5,16 @@ date:   2023-08-13 15:36:13 -0600
 categories: developer productivity
 ---
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&family=Merriweather&family=Spectral&display=swap" rel="stylesheet">
+
+
 Improving developer productivity has been a continuing topic for me over the past year. I am often asked how teams and organizations can improve and how to measure it, from both business execs and technical leaders
 
 Trying to answer this was part of the focus of my article on [maximizing developer effectiveness][maximizing-developer-effectiveness], which I drafted almost 4 years ago. The core concept was small micro improvements having a large compounding effect on software development. It described focusing on developer outcomes, fostering developer satisfaction, and optimizing feedback loops. With the current industry focus, I wanted to return to the developer productivity space, expand upon my article, with a series of exploratory posts.
 
-Why is it such a hot topic right now?
+#### Why is it such a hot topic right now?
 
 Various macroeconomic forces have meant the US has exited an extended tech boom (unless you work in GenAI). Prior to 2020, if you are a startup or a scaleup, finding investment based on future potential revenue was easy. If you wanted to build more software, or if your team was behind on a deadline, you could hire your way out of the problem. Enterprises saw a tightening of their revenue because consumers had less money to spend, which led to technical investment pull back. Big Tech laid off workers, and talked about productivity, Meta’s year of efficiency and Google aiming for 20% more productivity.
 
@@ -21,7 +26,7 @@ To start this exploration, I will talk a little bit more about what I mean by de
 
 To begin, if we put aside trying to measure productivity, it will allow us to look at the topic more holistically and consider different elements.
 
-## What do we mean by developer productivity?
+#### What do we mean by developer productivity?
 
 When I think about developer productivity, I use it to mean the value a developer produces for your company, I think about that under a few aspects –
 
@@ -37,7 +42,7 @@ There are other values, such as upskilling other developers
 
 When I speak to people about productivity they generally mean development efficiency. This may be OK if that is an accepted definition for your company. The danger is that it can appear that we are reducing the sole worth of a developer to this. Business execs love something quantifiable, they are looking for a simple metric to measure the effectiveness of their technology. <joining sentence< It may lead us to miss simple changes that would have a bigger difference to productivity and business impact.
 
-## How does a developer help to create a successful product?
+#### How does a developer help to create a successful product?
 
 If we look at time to market, often the reason for a company to look at developer productivity. A developer can code & ship faster that will help productivity. They can also write less code, as we know code is a liability that has to be maintained. Great development in my opinion is finding a simpler solution to solve a problem, utilizing a library / third party service instead of custom code, and designing an experiment that allows us to validate the idea quicker.
 

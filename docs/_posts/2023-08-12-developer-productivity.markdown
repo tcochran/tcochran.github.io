@@ -9,7 +9,9 @@ categories: developer productivity
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora&family=Merriweather&family=Spectral&display=swap" rel="stylesheet">
 
-
+<img src="/assets/mushroom.jpeg" width="100%"/>
+<br/>
+<br/>
 Improving developer productivity has been a continuing topic for me over the past year. I am often asked how teams and organizations can improve and how to measure it, from both business execs and technical leaders
 
 Trying to answer this was part of the focus of my article on [maximizing developer effectiveness][maximizing-developer-effectiveness], which I drafted almost 4 years ago. The core concept was small micro improvements having a large compounding effect on software development. It described focusing on developer outcomes, fostering developer satisfaction, and optimizing feedback loops. With the current industry focus, I wanted to return to the developer productivity space, expand upon my article, with a series of exploratory posts.

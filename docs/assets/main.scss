@@ -10,17 +10,21 @@ $brand-color: blue;
 
 /* Put any custom CSS here */
 body {
-    background-color: antiquewhite;
+    background-color: aliceblue;
     font-size: 18px;
+}
+
+img {
+    margin-bottom: 20px;
 }
 h1 {
   padding-bottom: 2px;
-  color: darkblue;
+  color: orangered;
 }
 
 h4 {
   padding-bottom: 8px;
   padding-top: 20px;
-  color: darkblue;
+  color: orangered;
   font-weight: 600
 }

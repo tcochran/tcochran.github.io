@@ -9,8 +9,18 @@ $brand-color: blue;
 @import "minima";
 
 /* Put any custom CSS here */
-
+body {
+    background-color: aliceblue;
+    font-size: 18px;
+}
 h1 {
   padding-bottom: 2px;
-  color: #0066b2;
+  color: orangered;
+}
+
+h4 {
+  padding-bottom: 8px;
+  padding-top: 20px;
+  color: orangered;
+  font-weight: 600
 }

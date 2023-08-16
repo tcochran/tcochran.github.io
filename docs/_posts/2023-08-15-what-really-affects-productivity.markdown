@@ -8,8 +8,8 @@ categories: developer productivity
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora&family=Merriweather&family=Spectral:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-#### Overengineering a solution
-A developer is building a complex solution that is very flexible and scalable to handle a huge load, when which is likely not needed. It could be built to handle performance requirements that will make little difference to the customer experience. A complex class heirarchect allow for every eventuality when the initial design is not even proven out.
+#### Overengineering
+A developer is building a complex solution that is very flexible and scalable to handle a huge load, when which is likely not needed. It could be built to handle performance requirements that will make little difference to the customer experience. A complex class hierarchy to allow for every eventuality when the initial design is not proven out yet.
 
 #### Misunderstanding the product feature goals & design
 Building the wrong thing due to a misunderstanding of the desired outcomes of the feature. Either the information wasn’t shared, or it was not clear enough, or there was some misunderstanding. This becomes worse if feedback cycles are long.

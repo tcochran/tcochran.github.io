@@ -62,8 +62,6 @@ Now we have developer productivity defined (at least by how I look at it). Next 
 
 [maximizing-developer-effectiveness]: https://martinfowler.com/articles/developer-effectiveness.html
 
-[meta-efficiency]
-https://about.fb.com/news/2023/03/mark-zuckerberg-meta-year-of-efficiency/]
+[meta-efficiency]:https://about.fb.com/news/2023/03/mark-zuckerberg-meta-year-of-efficiency/]
 
-[google-productivity]
-https://www.theregister.com/2022/09/07/google_ceo_sundar_pichai_productivity/
+[google-productivity]:https://www.theregister.com/2022/09/07/google_ceo_sundar_pichai_productivity/

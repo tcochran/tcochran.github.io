@@ -3,7 +3,7 @@ layout: post
 title:  "An exploration of developer productivity"
 date:   2023-08-13 15:36:13 -0600
 categories: developer productivity
-—
+---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

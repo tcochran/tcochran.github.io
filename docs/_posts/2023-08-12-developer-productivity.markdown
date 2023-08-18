@@ -36,29 +36,30 @@ When I talk about developer productivity, I use it to mean the value a developer
 
 **The first is working software** – creating and putting reliable, high-quality software in front of customers regularly. I generally think of this as development efficiency.
 
-There are lots of tasks a developer does in their day-to-day journey that are laborious and slow that can be improved  – writing boilerplate code, learning existing code, waiting for a build, recreating an issue, misunderstandings with colleagues etc.. Applying the best practices from continuous delivery, developer experience and platform engineering, will make software development faster, and thus the developer produces more software.
+There are lots of tasks a developer does in their day-to-day journey that are laborious, frictionful and slow that can be improved  – writing boilerplate code, learning existing code, waiting for a build, recreating an issue, standing up a new service etc.. Applying the best practices from continuous delivery, developer experience and platform engineering, will make software development faster, and thus the developer produces more working software.
 
 **The second is building a successful product** – how a developer can contribute to the success and effectiveness of the product they are building.
 
-Creating a successful product is an art, not a science, consisting of many different elements, with a large amount of luck and timing. For example responding to customer feedback, ideas to increase revenue & market share, improving cost efficiency, experimenting faster & cheaper, building a great customer experience and many more. All of these factors a developer is critical to help produce as part of a cross-functional product team, and a lot of it isn’t writing code.
+Creating a successful product is an art, not a science, consisting of many different elements, with a large amount of luck and timing. Those elements might include responding to customer feedback, ideas to increase revenue & market share, improving cost efficiency, experimenting quickly, building a great customer experience and many more. All of these factors a developer is critical to help produce as part of a cross-functional product team, and a lot of it isn’t writing code.
 
-There are other values, such as upskilling other developers. <more>
+There are other values to consider, such as upskilling other developers. MORE THINGS HERE.
 
-The way I see developer productivity presented, it is mostly attributed to development efficiency, which makes me feel uncomfortable. The danger is that it can appear that we are reducing the sole worth of a developer to write code to fulfill predetermined requirements – a coding robot to churn out new pages and widgets.
+The way I see developer productivity presented, it is mostly attributed to development efficiency. The danger is that it can appear that we are reducing the sole worth of a developer to write code to fulfill predetermined requirements – a coding robot to churn out new pages and widgets.
 
-Business execs love something quantifiable, they are looking for a simple metric to measure the effectiveness of their technology. If we only use development efficiency & tooling friction numbers to represent. It may lead us to miss simple changes that would have a bigger difference to productivity and business impact.
+Leaders love something quantifiable, they are looking for a simple metric to measure the effectiveness of the technology organization. If we report developer productivity to mean development efficiency, and only show those metrics, it reduces the developer value, simplifies product development too much. It may lead us to optimize too much in one direction and miss simple changes that would have a bigger difference to productivity and business impact.
 
-That being said, I don't want to minimize the importance of development efficiency. I am a big proponent of improving the developer environment, processes and tooling, a critical foundational capability that will remove a friction from the developers lives and allow them to work on higher value tasks, but to truly get the most from your developers, it is a more complicated puzzle in my opinion.
-### How does a developer help to create a successful product?
+### How do developer’s help produce a successful product?
 
 If we look at time to market for a product or feature, the common reason for a company to look at developer productivity. A developer can code & ship faster, that will help productivity. However, they might be able to achieve the product goals by writing less code. It is desirable to have less code, code is a liability that has to be maintained. Great development in my opinion is finding a simpler solution to solve a problem, utilizing a library / third party service instead of custom code, and designing an experiment that allows us to validate the idea quicker.
 
-Another element is the strength of the product ideas. A trend I have seen is idea generation has become the domain of product managers, designers and sales people. A developer spends a lot of time immersed in the product, ruminating about customer problems. If we don’t leverage that deep thought and creativity, we are losing a lot of opportunity to produce more value. I have seen a lot of ideas come from developers in the teams I work with, and the industry is full of products that originated from developers (Spotify, Tesla, Google etc..).
+Another element is the strength of the product ideas. A trend I have seen is idea generation has become the domain of product managers, designers and sales people. A developer spends a lot of time immersed in the product, ruminating about customer problems. If we don’t leverage that deep thought and creativity, we are losing a lot of opportunity to produce more value. I have seen a lot of ideas come from developers in the team I work in, and the industry is full of products that originated from developers (Spotify, Tesla, Google etc..).
 
-While it might appear these aspects are more to do with the process or cross-functional optimization. I think it’s important to consider all the values a developer produces while we are trying to optimize for productivity as it will have an effect on the toolings, reporting and processes that we create.
+While it might appear these aspects are more to do with process or cross-functional optimization. I think it’s important to consider all the values a developer produces while we are trying to optimize for productivity as it will have an effect on the toolings, reporting and processes that we create. I will continue to explore this theme in future posts.
 
-Now we have developer productivity defined (at least by how I look at it). In my next post, I will use some examples to illustrate more about what I mean.
+Now we have developer productivity defined (at least by how I look at it). Next will be some of the main things I have seen affect it.
 
 [maximizing-developer-effectiveness]: https://martinfowler.com/articles/developer-effectiveness.html
-[meta-efficiency]:https://about.fb.com/news/2023/03/mark-zuckerberg-meta-year-of-efficiency/
+
+[meta-efficiency]:https://about.fb.com/news/2023/03/mark-zuckerberg-meta-year-of-efficiency/]
+
 [google-productivity]:https://www.theregister.com/2022/09/07/google_ceo_sundar_pichai_productivity/

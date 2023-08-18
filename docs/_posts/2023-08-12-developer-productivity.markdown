@@ -3,7 +3,8 @@ layout: post
 title:  "An exploration of developer productivity"
 date:   2023-08-13 15:36:13 -0600
 categories: developer productivity
----
+—
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora&family=Merriweather&family=Spectral:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -11,6 +12,7 @@ categories: developer productivity
 <img src="/assets/mushroom.jpeg" width="100%">
 <br/>
 <br/>
+
 
 Improving developer productivity has been a continuing topic for me over the past year. I am often asked how teams and organizations can improve productivity and how to measure it, from both business and technical leaders
 
@@ -48,9 +50,9 @@ The way I see developer productivity presented, it is mostly attributed to devel
 
 Leaders love something quantifiable, they are looking for a simple metric to measure the effectiveness of the technology organization. If we report developer productivity to mean development efficiency, and only show those metrics, it reduces the developer value, simplifies product development too much. It may lead us to optimize too much in one direction and miss simple changes that would have a bigger difference to productivity and business impact.
 
-### How do developer’s help produce a successful product?
+How do developer’s help produce a successful product?
 
-If we look at time to market for a product or feature, the common reason for a company to look at developer productivity. A developer can code & ship faster, that will help productivity. However, they might be able to achieve the product goals by writing less code. It is desirable to have less code, code is a liability that has to be maintained. Great development in my opinion is finding a simpler solution to solve a problem, utilizing a library / third party service instead of custom code, and designing an experiment that allows us to validate the idea quicker.
+If we look at improving time to market, often the reason for a company to look at developer productivity. A developer can code & ship faster, that will help productivity. However, they might be able to achieve the product goals by writing less code. It is desirable to have less code, code is a liability that has to be maintained. Great development in my opinion is finding a simpler solution to solve a problem, utilizing a library / third party service instead of custom code, and designing an experiment that allows us to validate the idea quicker.
 
 Another element is the strength of the product ideas. A trend I have seen is idea generation has become the domain of product managers, designers and sales people. A developer spends a lot of time immersed in the product, ruminating about customer problems. If we don’t leverage that deep thought and creativity, we are losing a lot of opportunity to produce more value. I have seen a lot of ideas come from developers in the team I work in, and the industry is full of products that originated from developers (Spotify, Tesla, Google etc..).
 
@@ -60,6 +62,8 @@ Now we have developer productivity defined (at least by how I look at it). Next 
 
 [maximizing-developer-effectiveness]: https://martinfowler.com/articles/developer-effectiveness.html
 
-[meta-efficiency]:https://about.fb.com/news/2023/03/mark-zuckerberg-meta-year-of-efficiency/]
+[meta-efficiency]
+https://about.fb.com/news/2023/03/mark-zuckerberg-meta-year-of-efficiency/]
 
-[google-productivity]:https://www.theregister.com/2022/09/07/google_ceo_sundar_pichai_productivity/
+[google-productivity]
+https://www.theregister.com/2022/09/07/google_ceo_sundar_pichai_productivity/

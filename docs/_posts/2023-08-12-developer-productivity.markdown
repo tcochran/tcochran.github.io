@@ -50,7 +50,7 @@ The way I see developer productivity presented, it is mostly attributed to devel
 
 Leaders love something quantifiable, they are looking for a simple metric to measure the effectiveness of the technology organization. If we report developer productivity to mean development efficiency, and only show those metrics, it reduces the developer value, simplifies product development too much. It may lead us to optimize too much in one direction and miss simple changes that would have a bigger difference to productivity and business impact.
 
-How do developer’s help produce a successful product?
+### How do developer’s help produce a successful product?
 
 If we look at improving time to market, often the reason for a company to look at developer productivity. A developer can code & ship faster, that will help productivity. However, they might be able to achieve the product goals by writing less code. It is desirable to have less code, code is a liability that has to be maintained. Great development in my opinion is finding a simpler solution to solve a problem, utilizing a library / third party service instead of custom code, and designing an experiment that allows us to validate the idea quicker.
 

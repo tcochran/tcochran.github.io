@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.fontFamily": "Monaco, Monaco, 'Courier New', monospace",
+		"editor.formatOnType": false,
+		"[markdown]": {
+			"editor.fontFamily": "Roboto",
+			"editor.fontSize": "14px",
+			"editor.wordWrapColumn": 100,
+			"editor.wordWrap": "wordWrapColumn"
+		},
+		"workbench.colorTheme": "Visual Studio Light",
+		"grammarly.files.include": [
+			"**/readme.md",
+			"**/README.md",
+			"**/*.txt",
+			"**/*.markdown"
+		]
+	}
+}

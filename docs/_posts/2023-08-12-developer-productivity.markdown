@@ -13,7 +13,6 @@ categories: developer productivity
 <br/>
 <br/>
 
-
 Improving developer productivity has been a continuing topic for me over the past year. I am often asked how teams and organizations can improve productivity and how to measure it, from both business and technical leaders
 
 Trying to answer this was part of the focus of my article on [maximizing developer effectiveness][maximizing-developer-effectiveness], which I drafted almost 4 years ago. The core concept was small micro improvements having a large compounding effect on software development. It described focusing on developer outcomes, fostering developer satisfaction, and optimizing feedback loops.

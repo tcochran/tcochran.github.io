@@ -29,9 +29,17 @@ Trying to make developers more productive is not a new endeavor; it has been a t
 
 To start this exploration, I will talk a little bit more about what I mean by developer productivity, and follow up with posts on what I have observed*, before trying to land on some good advice.
 
-To begin, I will put aside trying to measure productivity, as it will allow us to look at the topic more holistically and consider different elements.
+Often when I read articles in this space very quickly gravitatives to the "answer", the magic formualte for producitivty, how do I measure? 
+
+My team is often asked about this, pushed to tell them if I adopt X practise or tool it will result in this Y producivity gain or Z saving. My usual glip response was if I knew the formula for productivity I wouldn't be talking to you now. 
+
+I still think there is a value in exploring developer productivity, after all developers are the most expensive line item. However to begin we are going to put aiside measuring. We will get to it later.  There is a danger of equating what you can easily measure, what stats instrumentation can provide, rather than focusing on the actual sometimes tmore difficult things that affect productivity. 
 
 ### What do we mean by developer productivity?
+
+
+
+
 
 When I talk about developer productivity, I use it to mean the value a developer produces for your company, I think about that under a few aspects –
 
@@ -49,6 +57,14 @@ The way I see developer productivity presented, it is mostly attributed to devel
 
 Leaders love something quantifiable, they are looking for a simple metric to measure the effectiveness of the technology organization. If we report developer productivity to mean development efficiency, and only show those metrics, it reduces the developer value, simplifies product development too much. It may lead us to optimize too much in one direction and miss simple changes that would have a bigger difference to productivity and business impact.
 
+There is a couple of issues I have with terminoly. The first is that is singular, "developer" producivity. Software development is a cummalative effort from colllauges and other functions. 
+
+The second problem is that it often leads to performance management and monitoring I often see tooling that is restriced to managers and directors, why is that? I am a  believer in challenging a team with a difficult goal or a problem, and their ablitiy to  find a solution. If we provide our teams with metrics and signals, they can use that in their continous improvment to track progess. This applies to product & business metrics, along with producivity metrics. I remember walking around the Etsy office, with average lead team graph on every monitor. This was to hold everyone accountable. 
+
+
+
+
+
 ### How do developer’s help produce a successful product?
 
 If we look at improving time to market, often the reason for a company to look at developer productivity. A developer can code & ship faster, that will help productivity. However, they might be able to achieve the product goals by writing less code. It is desirable to have less code, code is a liability that has to be maintained. Great development in my opinion is finding a simpler solution to solve a problem, utilizing a library / third party service instead of custom code, and designing an experiment that allows us to validate the idea quicker.
@@ -57,7 +73,7 @@ Another element is the strength of the product ideas. A trend I have seen is ide
 
 While it might appear these aspects are more to do with process or cross-functional optimization. I think it’s important to consider all the values a developer produces while we are trying to optimize for productivity as it will have an effect on the toolings, reporting and processes that we create. I will continue to explore this theme in future posts.
 
-Now we have developer productivity defined (at least by how I look at it). Next will be some of the main things I have seen affect it.
+Now we have developer productivity defined (at least by how I look at it). Next will be some of the main things I have sap a developer's producitiy.
 
 [maximizing-developer-effectiveness]: https://martinfowler.com/articles/developer-effectiveness.html
 

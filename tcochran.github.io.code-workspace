@@ -5,13 +5,14 @@
 		}
 	],
 	"settings": {
+		"editor.selectionHighlight": false,
 		"editor.fontFamily": "Monaco, Monaco, 'Courier New', monospace",
 		"editor.formatOnType": false,
 		"[markdown]": {
 			"editor.fontFamily": "Roboto",
-			"editor.fontSize": "14px",
-			"editor.wordWrapColumn": 100,
-			"editor.wordWrap": "wordWrapColumn"
+			"editor.fontSize": "15px",
+			"editor.wordWrap": "on",
+			"editor.semanticHighlighting.enabled": false
 		},
 		"workbench.colorTheme": "Visual Studio Light",
 		"grammarly.files.include": [
@@ -19,6 +20,8 @@
 			"**/README.md",
 			"**/*.txt",
 			"**/*.markdown"
-		]
+		],
+		"editor.occurrencesHighlight": false
+		
 	}
 }

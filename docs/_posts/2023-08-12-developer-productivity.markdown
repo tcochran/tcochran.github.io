@@ -78,13 +78,13 @@ Creating a successful product is an art, not a science, consisting of many diffe
 
 MORE HERE
 
-Tthere are other values that a developer produces. Upskilling and mentoring allow us to hire less senior engineers. Knowledge transfer means we can avoid interruptions when someone quits. Considering future scalability means we can prevent less rework in the future. Do those values enhance provide business impact?
+There are other values that a developer produces. Upskilling and mentoring allow us to hire less senior engineers. Knowledge transfer means we can avoid interruptions when someone quits. Considering future scalability means we can prevent less rework in the future. Do those values enhance provide business impact?
 
 The way I see developer productivity presented, it is mostly attributed to development efficiency. The danger is that it can appear that we are reducing the sole worth of a developer to write code to fulfill predetermined requirements – a coding robot to churn out new pages and widgets. In my understanding, this isn't how effective software development works.
 
 However, if we go back to those business reasons why companies are looking at productivity, we should have a more nunanced view on what a developer produces. 
 
-### Developer performance?
+### Tracking Developer performance?
 
 NOT SURE IF SHOULD WRITE THIS HERE OR NOT 
 

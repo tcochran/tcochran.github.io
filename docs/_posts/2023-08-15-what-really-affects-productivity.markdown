@@ -11,7 +11,7 @@ categories: developer productivity
 
 In the [previous post][post1-developer-productivity], we examined what developer productivity means. How when we look at developer productivity we often look to development efficiency – how fast can we code & deploy? and items that are easily measurable. To explore this further, this is a list of imediments that developers end up wasting time and energy on. This list was accumlated from research during the early stage of productivity optimization projects, typically using a mixure of observation, root cause analysis, interviews, and surveys
 
-#### What reallly affect developer productivity?
+#### What really affects developer productivity?
 
 ##### Overengineering
 A developer is constructing a complex solution that is flexible or scalable when there isn't indication that will be needed soon. It could be building to handle performance requirements that will make little noticable difference to the customer experience, designing for future customer and traffic growth when the product is an MVP stage, or creating a complex class design to allow for every eventuality.

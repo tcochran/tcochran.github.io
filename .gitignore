@@ -5,3 +5,6 @@ _site
 vendor
 .DS_Store
 **/.DS_Store
+.env.local
+.bundle
+node_modules

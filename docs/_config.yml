@@ -16,16 +16,8 @@ theme_mode: # blank = auto (light/dark based on OS preference + manual toggle)
 # Social
 social:
   name: Tim Cochran
-  email: timothy.cochran@gmail.com
   links:
-    - https://github.com/tcochran
-    - https://twitter.com/timcochran
-
-github:
-  username: tcochran
-
-twitter:
-  username: timcochran
+    - https://www.linkedin.com/in/timcochran
 
 # Pagination
 paginate: 10

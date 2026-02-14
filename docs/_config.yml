@@ -29,8 +29,7 @@ github_username:  tcochran
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
+plugins: []
 
 fonts:
   google_fonts: 'https://fonts.googleapis.com/css2?family=Lora&display=swap'

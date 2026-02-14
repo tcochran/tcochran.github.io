@@ -43,7 +43,6 @@ defaults:
       permalink: /:title/
 
 # Chirpy-specific
-avatar: # optional: path to avatar image
 toc: true
 
 # Exclude from processing

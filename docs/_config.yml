@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Developer Effectiveness
+title: Tim Cochran
 email: timothy.cochran@gmail.com
 description: >-
-  All things about maximing developer effectiveness
+  Tim Cochran's blog on software engineering and developer experience
 baseurl: ""
 url: "tcochran.github.io"
 twitter_username: timcochran

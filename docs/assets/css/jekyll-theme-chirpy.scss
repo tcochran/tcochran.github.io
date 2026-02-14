@@ -1,0 +1,33 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* Custom: improve dark mode contrast */
+html[data-mode="dark"],
+[data-mode="dark"] {
+  --text-color: rgb(240 240 242);
+  --heading-color: #f0f0f0;
+  --post-list-text-color: rgb(240 240 242);
+  --site-title-color: #d0d0d0;
+  --site-subtitle-color: #c0c0c0;
+  --label-color: #c8c8c8;
+  --blockquote-text-color: #b0b0b0;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) {
+    --text-color: rgb(240 240 242);
+    --heading-color: #f0f0f0;
+    --post-list-text-color: rgb(240 240 242);
+    --site-title-color: #d0d0d0;
+    --site-subtitle-color: #c0c0c0;
+    --label-color: #c8c8c8;
+    --blockquote-text-color: #b0b0b0;
+  }
+}

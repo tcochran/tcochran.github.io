@@ -11,7 +11,7 @@ timezone: America/New_York
 
 # Theme
 theme: jekyll-theme-chirpy
-theme_mode: # blank = auto (light/dark based on OS preference + manual toggle)
+theme_mode: light
 
 # Social
 social:

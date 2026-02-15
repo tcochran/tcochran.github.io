@@ -31,3 +31,157 @@ html[data-mode="dark"],
     --blockquote-text-color: #b0b0b0;
   }
 }
+
+/* =====================================================
+   Horizontal Top Navigation (sidebar override)
+   ===================================================== */
+
+#sidebar {
+  position: sticky !important;
+  top: 0;
+  left: auto !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  padding: 1.5rem 1.5rem !important;
+  z-index: 1030;
+  border-bottom: 1px solid var(--btn-border-color, rgba(0, 0, 0, 0.1));
+  border-right: none !important;
+  transform: none !important;
+  max-width: 100% !important;
+}
+
+#sidebar .profile-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 0 !important;
+  margin: 0 !important;
+  text-align: left !important;
+  width: auto !important;
+}
+
+#sidebar .site-title {
+  font-size: 1.2rem !important;
+  margin: 0 !important;
+  white-space: nowrap;
+}
+
+#sidebar .site-subtitle {
+  display: none !important;
+}
+
+#sidebar .topnav-links {
+  display: flex !important;
+  justify-content: flex-end;
+}
+
+#sidebar .topnav-links .nav {
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 0.25rem;
+  flex-wrap: nowrap;
+  padding: 0 !important;
+  margin: 0 !important;
+  width: auto !important;
+}
+
+#sidebar .topnav-links .nav-item {
+  display: flex !important;
+  align-items: center !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  width: auto !important;
+  list-style: none !important;
+}
+
+#sidebar .topnav-links .nav-link {
+  padding: 0.4rem 0.75rem !important;
+  font-size: 0.85rem !important;
+  white-space: nowrap;
+}
+
+#sidebar .topnav-links .nav-item i {
+  display: none;
+}
+
+#sidebar .sidebar-bottom {
+  margin-left: 0.5rem;
+  width: auto !important;
+  padding: 0 !important;
+  flex-wrap: nowrap !important;
+}
+
+#sidebar #mode-toggle {
+  padding: 0.25rem 0.5rem !important;
+}
+
+/* Hide the old topbar — the horizontal nav replaces it */
+#topbar-wrapper {
+  display: none !important;
+}
+
+/* Remove left margin the theme applies for the sidebar column */
+#main-wrapper {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* Hide the sidebar trigger button (hamburger in old topbar) */
+#sidebar-trigger {
+  display: none !important;
+}
+
+/* Hide the mask overlay used by sidebar slide-in */
+#mask {
+  display: none !important;
+}
+
+/* Hamburger toggle for mobile */
+#nav-toggle {
+  display: none;
+  font-size: 1.25rem;
+  border: none;
+  background: none;
+  color: var(--text-color);
+}
+
+/* Mobile styles */
+@media (max-width: 991.98px) {
+  #sidebar {
+    flex-wrap: wrap !important;
+  }
+
+  #nav-toggle {
+    display: inline-block !important;
+  }
+
+  #sidebar .topnav-links {
+    display: none !important;
+    width: 100%;
+    order: 3;
+  }
+
+  #sidebar .topnav-links.show {
+    display: flex !important;
+  }
+
+  #sidebar .topnav-links .nav {
+    flex-direction: column !important;
+    width: 100%;
+    padding: 0.5rem 0 !important;
+  }
+
+  #sidebar .topnav-links .nav-link {
+    padding: 0.5rem 0.75rem !important;
+  }
+
+  #sidebar .sidebar-bottom {
+    order: 4;
+    width: 100% !important;
+    justify-content: flex-start;
+    padding: 0.25rem 0 !important;
+    margin-left: 0;
+  }
+}

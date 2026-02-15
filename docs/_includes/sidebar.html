@@ -1,13 +1,15 @@
-<!-- The Side Bar -->
+<!-- Top Navigation Bar (converted from sidebar) -->
 
-<aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
+<aside aria-label="Sidebar" id="sidebar" class="d-flex align-items-center">
   <header class="profile-wrapper">
     <a class="site-title d-block" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-    <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
   </header>
-  <!-- .profile-wrapper -->
 
-  <nav class="flex-column flex-grow-1 w-100 ps-0">
+  <button type="button" id="nav-toggle" class="btn btn-link nav-link d-lg-none ms-auto" aria-label="Toggle Navigation">
+    <i class="fas fa-bars"></i>
+  </button>
+
+  <nav class="topnav-links flex-grow-1" id="nav-collapse">
     <ul class="nav">
       <!-- home -->
       <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
@@ -20,11 +22,9 @@
         <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
           <a href="{{ tab.url | relative_url }}" class="nav-link">
             {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
-
             <span>{{ site.data.locales[include.lang].tabs.[tab_name] | default: tab.title | upcase }}</span>
           </a>
         </li>
-        <!-- .nav-item -->
       {% endfor %}
       <!-- LinkedIn -->
       <li class="nav-item">
@@ -35,13 +35,24 @@
     </ul>
   </nav>
 
-  <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
+  <div class="sidebar-bottom d-flex align-items-center">
     {% unless site.theme_mode %}
       <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
         <i class="fas fa-adjust"></i>
       </button>
     {% endunless %}
   </div>
-  <!-- .sidebar-bottom -->
 </aside>
 <!-- #sidebar -->
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('nav-toggle');
+    var nav = document.getElementById('nav-collapse');
+    if (toggle && nav) {
+      toggle.addEventListener('click', function () {
+        nav.classList.toggle('show');
+      });
+    }
+  });
+</script>

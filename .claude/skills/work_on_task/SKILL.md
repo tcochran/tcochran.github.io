@@ -31,6 +31,13 @@ A lightweight SDLC loop for tasks tracked in Studio (`studio-ai` MCP). This skil
 7. **If review path: open PR.** Use `gh pr create`. Title short; body links the Studio task and summarizes change + test plan. Keep the PR small enough to review in one sitting.
 8. **Submit for review.** Call `mcp__studio-ai__submit_for_review` with the PR URL so the task moves to `review` and reviewers are auto-assigned.
 9. **Merge and delete.** Once approved, merge and delete the branch. Do not let it linger.
+10. **Reset local to trunk HEAD.** After the merge, sync the local repo back to a clean state:
+    - **Precondition:** working tree must be clean (no uncommitted changes, no in-progress work). If not clean, stop and surface the dirty files to the user — do **not** discard their work.
+    - `git checkout main` (or whatever the trunk branch is)
+    - `git pull --ff-only`
+    - `git branch -d <merged-branch>` to delete the local branch
+    - `git fetch --prune` to drop the deleted remote tracking ref
+    - Confirm with the user before running anything destructive if the precondition check is ambiguous.
 
 ## Notes
 - If a step fails (build break, hook rejection), fix the underlying issue rather than bypassing.

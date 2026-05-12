@@ -9,7 +9,7 @@ A lightweight SDLC loop for tasks tracked in Studio (`studio-ai` MCP). This skil
 
 ## Development model: trunk-based
 
-- **Default to working on trunk** (`master`). Small, low-risk changes (typos, content edits, dependency bumps, drafts) commit straight to trunk and push.
+- **Default to working on trunk** (`main`). Small, low-risk changes (typos, content edits, dependency bumps, drafts) commit straight to trunk and push.
 - **Branch only when review is needed.** Cut a short-lived branch, open a PR, get the review, merge, delete the branch. The branch exists for the duration of the review, not longer.
 - **No long-lived feature branches.** If a task is too big to land on trunk in a day or two, split it.
 - **Never force-push trunk.** Never skip hooks.
@@ -23,7 +23,7 @@ A lightweight SDLC loop for tasks tracked in Studio (`studio-ai` MCP). This skil
 1. **Claim the task.** Call `mcp__studio-ai__work_on_next_task` (or `get_task` if a specific task was named). Surface the task title, ID, and acceptance criteria to the user before doing anything else.
 2. **Confirm scope.** If the task is ambiguous or larger than a short-lived PR can absorb, stop and align with the user before writing code.
 3. **Decide the path.**
-   - **Trunk path:** small, safe, no review needed → commit on `master` and push.
+   - **Trunk path:** small, safe, no review needed → commit on `main` and push.
    - **Review path:** anything that should be reviewed → cut a short-lived branch `task/<id>-<short-slug>`.
 4. **Implement.** Make the change. Follow repo conventions. Keep the diff focused on the task — no drive-by refactors.
 5. **Verify.** Run the relevant checks (build, tests, lint). For this repo, that includes `bundle exec jekyll build` from `docs/`.

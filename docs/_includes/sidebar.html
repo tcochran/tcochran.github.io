@@ -26,12 +26,31 @@
         </li>
         <!-- .nav-item -->
       {% endfor %}
-      <!-- LinkedIn -->
-      <li class="nav-item">
-        <a href="https://www.linkedin.com/in/timcochran" class="nav-link" target="_blank" rel="noopener noreferrer">
-          <span>LINKEDIN</span>
-        </a>
-      </li>
+
+      {% if site.posts.size > 0 %}
+        <li class="nav-item sidebar-posts-label">
+          <a class="nav-link" style="pointer-events: none;">
+            <span>POSTS:</span>
+          </a>
+        </li>
+        {% for post in site.posts limit: 10 %}
+          <li class="nav-item sidebar-post-item">
+            <a href="{{ post.url | relative_url }}" class="nav-link">
+              <span>{{ post.title }}{% if post.path contains '_drafts' %} (draft){% endif %}</span>
+            </a>
+          </li>
+        {% endfor %}
+        <li class="nav-item sidebar-post-item">
+          <a href="https://martinfowler.com/articles/developer-effectiveness.html" class="nav-link" target="_blank" rel="noopener noreferrer">
+            <span>Maximizing Developer Effectiveness (martinfowler.com)</span>
+          </a>
+        </li>
+        <li class="nav-item sidebar-post-item">
+          <a href="https://martinfowler.com/articles/measuring-developer-productivity-humans.html" class="nav-link" target="_blank" rel="noopener noreferrer">
+            <span>Measuring Developer Productivity (martinfowler.com)</span>
+          </a>
+        </li>
+      {% endif %}
     </ul>
   </nav>
 

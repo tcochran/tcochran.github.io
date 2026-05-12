@@ -1,0 +1,14 @@
+{
+  "_comment": "Studio AI MCP — HTTP transport. Requires STUDIO_API_KEY env var (ask a platform admin to mint one).",
+  "mcpServers": {
+    "studio-ai": {
+      "type": "http",
+      "url": "https://studio-ai-one.vercel.app/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${STUDIO_API_KEY}",
+        "x-product-code": "blog",
+        "x-agent-name": "${STUDIO_AGENT_NAME:-tcochran}"
+      }
+    }
+  }
+}

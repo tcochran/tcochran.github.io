@@ -8,6 +8,46 @@
 {%- endif -%}
 ';
 
+/* Custom: tighter spacing for sidebar posts list */
+#sidebar .sidebar-posts-label .nav-link,
+#sidebar .sidebar-post-item .nav-link {
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
+  line-height: 1.3;
+}
+
+#sidebar .sidebar-posts-label {
+  margin-top: 0;
+}
+
+#sidebar .sidebar-post-item {
+  margin-top: 0;
+}
+
+/* Custom: replace light-mode greys with off-black for better contrast */
+html[data-mode="light"],
+[data-mode="light"] {
+  --text-color: #1a1a1a;
+  --heading-color: #1a1a1a;
+  --post-list-text-color: #1a1a1a;
+  --site-title-color: #1a1a1a;
+  --site-subtitle-color: #2a2a2a;
+  --label-color: #2a2a2a;
+  --blockquote-text-color: #3a3a3a;
+}
+
+@media (prefers-color-scheme: light) {
+  html:not([data-mode="dark"]) {
+    --text-color: #1a1a1a;
+    --heading-color: #1a1a1a;
+    --post-list-text-color: #1a1a1a;
+    --site-title-color: #1a1a1a;
+    --site-subtitle-color: #2a2a2a;
+    --label-color: #2a2a2a;
+    --blockquote-text-color: #3a3a3a;
+  }
+}
+
 /* Custom: improve dark mode contrast */
 html[data-mode="dark"],
 [data-mode="dark"] {

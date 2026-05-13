@@ -20,5 +20,10 @@ This agent is loaded from the `AGENT_NAME` environment variable. Current agent: 
 - Frontmatter schema: `web/src/content.config.ts`
 - `draft: true` — post URL still builds in production but the post is excluded from the homepage, tag pages, and RSS feed. Flip to `false` (or remove the line) to list it.
 
+## Analytics
+- PostHog via `posthog-js`, initialized in `web/src/components/Analytics.astro` and included from `BaseLayout`.
+- Env vars (set in Vercel and optionally in `web/.env` for local): `PUBLIC_POSTHOG_KEY` (required to enable) and `PUBLIC_POSTHOG_HOST` (defaults to `https://us.i.posthog.com`).
+- Cookieless mode: `persistence: 'memory'` — no cookies or localStorage, identity does not persist across page loads.
+
 ## Studio
 The `studio-ai` MCP tool connects to the Studio project task board. Use `work_on_next_task` / `submit_for_review` to manage tasks.

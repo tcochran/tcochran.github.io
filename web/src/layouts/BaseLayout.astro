@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import { SITE_TITLE, SITE_SHORT_TITLE, SITE_DESCRIPTION } from '../consts';
+import Analytics from '../components/Analytics.astro';
 
 interface Props {
   title?: string;
@@ -20,6 +21,7 @@ const fullTitle = title ? `${title} — ${SITE_SHORT_TITLE}` : SITE_TITLE;
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <link rel="alternate" type="application/rss+xml" title={SITE_TITLE} href="/feed.xml" />
+    <Analytics />
   </head>
   <body>
     <div class="mx-auto max-w-4xl px-6 py-12">

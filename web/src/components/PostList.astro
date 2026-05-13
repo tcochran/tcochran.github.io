@@ -1,7 +1,8 @@
 ---
 import { getCollection } from 'astro:content';
+import { isListed } from '../lib/content';
 
-const posts = (await getCollection('posts', ({ data }) => !data.draft)).map((p) => ({
+const posts = (await getCollection('posts', isListed)).map((p) => ({
   kind: 'post' as const,
   slug: p.id,
   title: p.data.title,
@@ -9,7 +10,7 @@ const posts = (await getCollection('posts', ({ data }) => !data.draft)).map((p) 
   description: p.data.description,
 }));
 
-const links = (await getCollection('links', ({ data }) => !data.draft)).map((l) => ({
+const links = (await getCollection('links', isListed)).map((l) => ({
   kind: 'link' as const,
   slug: l.id,
   title: l.data.title,

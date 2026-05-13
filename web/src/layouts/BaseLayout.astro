@@ -1,0 +1,41 @@
+---
+import '../styles/global.css';
+import { SITE_TITLE, SITE_SHORT_TITLE, SITE_DESCRIPTION } from '../consts';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title, description = SITE_DESCRIPTION } = Astro.props;
+const fullTitle = title ? `${title} — ${SITE_SHORT_TITLE}` : SITE_TITLE;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="alternate" type="application/rss+xml" title={SITE_TITLE} href="/feed.xml" />
+  </head>
+  <body>
+    <div class="mx-auto max-w-2xl px-6 py-12">
+      <header class="mb-12 flex items-baseline justify-between">
+        <a href="/" class="text-lg font-medium hover:underline">{SITE_SHORT_TITLE}</a>
+        <nav class="space-x-4 text-sm text-neutral-500">
+          <a href="/" class="hover:underline">posts</a>
+          <a href="/feed.xml" class="hover:underline">rss</a>
+        </nav>
+      </header>
+      <main>
+        <slot />
+      </main>
+      <footer class="mt-24 border-t border-neutral-200 pt-6 text-sm text-neutral-500 dark:border-neutral-800">
+        <p>© {new Date().getFullYear()} Tim Cochran</p>
+      </footer>
+    </div>
+  </body>
+</html>

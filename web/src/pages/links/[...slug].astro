@@ -1,0 +1,33 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const links = await getCollection('links', ({ data }) => !data.draft);
+  return links.map((link) => ({
+    params: { slug: link.id },
+    props: { link },
+  }));
+}
+
+const { link } = Astro.props;
+const { Content } = await render(link);
+const dateStr = link.data.date.toISOString().slice(0, 10);
+---
+
+<BaseLayout title={link.data.title} description={link.data.note}>
+  <article>
+    <header class="mb-8">
+      <p class="text-xs uppercase tracking-wide text-neutral-500">
+        <time datetime={link.data.date.toISOString()}>{dateStr}</time> · link
+        {link.data.via && <span> · via {link.data.via}</span>}
+      </p>
+      <h1 class="mt-2 text-2xl font-semibold tracking-tight">
+        <a href={link.data.url} class="hover:underline">{link.data.title} ↗</a>
+      </h1>
+    </header>
+    <div class="prose prose-neutral dark:prose-invert max-w-none">
+      <Content />
+    </div>
+  </article>
+</BaseLayout>

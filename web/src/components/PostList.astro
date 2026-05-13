@@ -1,0 +1,50 @@
+---
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('posts', ({ data }) => !data.draft)).map((p) => ({
+  kind: 'post' as const,
+  slug: p.id,
+  title: p.data.title,
+  date: p.data.date,
+  description: p.data.description,
+}));
+
+const links = (await getCollection('links', ({ data }) => !data.draft)).map((l) => ({
+  kind: 'link' as const,
+  slug: l.id,
+  title: l.data.title,
+  date: l.data.date,
+  url: l.data.url,
+  note: l.data.note,
+}));
+
+const entries = [...posts, ...links].sort((a, b) => b.date.valueOf() - a.date.valueOf());
+---
+
+<ul class="space-y-6">
+  {
+    entries.map((e) => (
+      <li>
+        <p class="text-xs uppercase tracking-wide text-neutral-500">
+          <time datetime={e.date.toISOString()}>{e.date.toISOString().slice(0, 10)}</time>
+          {e.kind === 'link' && ' · link'}
+        </p>
+        {e.kind === 'post' ? (
+          <>
+            <a href={`/posts/${e.slug}`} class="text-lg font-medium hover:underline">
+              {e.title}
+            </a>
+            {e.description && <p class="text-neutral-600 dark:text-neutral-400">{e.description}</p>}
+          </>
+        ) : (
+          <>
+            <a href={e.url} class="text-lg font-medium hover:underline">
+              {e.title}
+            </a>
+            {e.note && <p class="text-neutral-600 dark:text-neutral-400">{e.note}</p>}
+          </>
+        )}
+      </li>
+    ))
+  }
+</ul>

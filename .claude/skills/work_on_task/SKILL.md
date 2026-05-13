@@ -26,12 +26,13 @@ A lightweight SDLC loop for tasks tracked in Studio (`studio-ai` MCP). This skil
    - **Trunk path:** small, safe, no review needed → commit on `main` and push.
    - **Review path:** anything that should be reviewed → cut a short-lived branch `task/<id>-<short-slug>`.
 4. **Implement.** Make the change. Follow repo conventions. Keep the diff focused on the task — no drive-by refactors.
-5. **Verify.** Run the relevant checks (build, tests, lint). For this repo, that includes `bundle exec jekyll build` from `docs/`.
+5. **Verify.** Run the relevant checks (build, tests, lint). For this repo, that includes `cd web && npm run build`.
 6. **Commit.** One commit per logical change. Reference the task ID in the message.
 7. **If review path: open PR.** Use `gh pr create`. Title short; body links the Studio task and summarizes change + test plan. Keep the PR small enough to review in one sitting.
 8. **Submit for review.** Call `mcp__studio-ai__submit_for_review` with the PR URL so the task moves to `review` and reviewers are auto-assigned.
-9. **Merge and delete.** Once approved, merge and delete the branch. Do not let it linger.
-10. **Reset local to trunk HEAD.** After the merge, sync the local repo back to a clean state:
+9. **Start the dev server for the user to review.** After submitting for review, run the dev server in the background (`cd web && npm run dev`) and surface the local URL (e.g. http://localhost:4321) plus the specific pages worth visiting for this task. The user does not want to run the server themselves. Leave it running until the PR is merged; stop it as part of the post-merge reset.
+10. **Merge and delete.** Once approved, merge and delete the branch. Do not let it linger.
+11. **Reset local to trunk HEAD.** After the merge, sync the local repo back to a clean state:
     - **Precondition:** working tree must be clean (no uncommitted changes, no in-progress work). If not clean, stop and surface the dirty files to the user — do **not** discard their work.
     - `git checkout main` (or whatever the trunk branch is)
     - `git pull --ff-only`

@@ -2,10 +2,11 @@ import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
 import type { APIContext } from 'astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import { isListed } from '../lib/content';
 
 export async function GET(context: APIContext) {
-  const posts = await getCollection('posts', ({ data }) => !data.draft);
-  const links = await getCollection('links', ({ data }) => !data.draft);
+  const posts = await getCollection('posts', isListed);
+  const links = await getCollection('links', isListed);
 
   const items = [
     ...posts.map((p) => ({

@@ -12,7 +12,6 @@ const enabled = Boolean(import.meta.env.PUBLIC_POSTHOG_KEY);
     posthog.init(key, {
       api_host: host,
       person_profiles: 'identified_only',
-      persistence: 'memory',
       disable_session_recording: false,
       capture_pageview: true,
       capture_pageleave: true,

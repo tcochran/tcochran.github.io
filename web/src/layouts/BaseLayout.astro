@@ -29,7 +29,7 @@ const fullTitle = title ? `${title} — ${SITE_SHORT_TITLE}` : SITE_TITLE;
         <a href="/" class="text-lg font-medium hover:underline">{SITE_SHORT_TITLE}</a>
         <nav class="space-x-4 text-sm text-neutral-500">
           <a href="/" class="hover:underline">posts</a>
-          <a href="/feed.xml" class="hover:underline">rss</a>
+          <a href="/feed.xml" class="hover:underline" id="ph-rss-link">rss</a>
         </nav>
       </header>
       <main>
@@ -39,5 +39,10 @@ const fullTitle = title ? `${title} — ${SITE_SHORT_TITLE}` : SITE_TITLE;
         <p>© {new Date().getFullYear()} Tim Cochran</p>
       </footer>
     </div>
+  <script is:inline>
+    document.getElementById('ph-rss-link')?.addEventListener('click', function () {
+      window.posthog?.capture('rss_feed_clicked');
+    });
+  </script>
   </body>
 </html>

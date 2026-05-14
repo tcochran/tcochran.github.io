@@ -25,7 +25,7 @@ const dateStr = date.toISOString().slice(0, 10);
               {tags.map((tag, i) => (
                 <>
                   {i > 0 && ', '}
-                  <a href={`/tags/${tag}`} class="hover:underline">{tag}</a>
+                  <a href={`/tags/${tag}`} class="hover:underline ph-tag-link" data-tag={tag}>{tag}</a>
                 </>
               ))}
             </span>
@@ -38,3 +38,13 @@ const dateStr = date.toISOString().slice(0, 10);
     </div>
   </article>
 </BaseLayout>
+
+<script is:inline>
+  document.querySelectorAll('a.ph-tag-link').forEach(function (el) {
+    el.addEventListener('click', function () {
+      window.posthog?.capture('tag_clicked', {
+        tag: el.dataset.tag,
+      });
+    });
+  });
+</script>

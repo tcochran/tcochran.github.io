@@ -39,7 +39,7 @@ const entries = [...posts, ...links].sort((a, b) => b.date.valueOf() - a.date.va
           </>
         ) : (
           <>
-            <a href={e.url} class="text-lg font-medium hover:underline">
+            <a href={e.url} class="text-lg font-medium hover:underline ph-link-entry" data-url={e.url} data-title={e.title}>
               {e.title}
             </a>
             {e.note && <p class="text-neutral-600 dark:text-neutral-400">{e.note}</p>}
@@ -49,3 +49,14 @@ const entries = [...posts, ...links].sort((a, b) => b.date.valueOf() - a.date.va
     ))
   }
 </ul>
+
+<script is:inline>
+  document.querySelectorAll('a.ph-link-entry').forEach(function (el) {
+    el.addEventListener('click', function () {
+      window.posthog?.capture('homepage_external_link_clicked', {
+        url: el.dataset.url,
+        title: el.dataset.title,
+      });
+    });
+  });
+</script>

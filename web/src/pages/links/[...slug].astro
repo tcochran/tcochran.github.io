@@ -31,3 +31,12 @@ const dateStr = link.data.date.toISOString().slice(0, 10);
     </div>
   </article>
 </BaseLayout>
+
+<script is:inline define:vars={{ linkUrl: link.data.url, linkTitle: link.data.title }}>
+  document.querySelector('h1 a')?.addEventListener('click', function () {
+    window.posthog?.capture('link_blog_external_clicked', {
+      url: linkUrl,
+      title: linkTitle,
+    });
+  });
+</script>

@@ -2,12 +2,12 @@
 
 The blog focuses on **developer effectiveness and AI-native development**. Posts that don't fit that lens shouldn't go on the calendar.
 
-| Topic | Working title | Author | Publish date | Location |
-|---|---|---|---|---|
-| AI SDLC | How AI changes the traditional SDLC | Tim Cochran + Cassie Shum | June 13th | This blog or Martin's, reference from Martin's fragments |
-| Max Effectiveness | Revising Maximizing Developer Effectiveness in AI Era | Tim Cochran + Cassie Shum | June 13th | This blog or Martin's, reference from Martin's fragments |
-| Knowledge Graph | From Retrieval to Reasoning | Cassie Shum | TBD | This blog |
-| Feedback | Return of the desk check | Tim Cochran | TBD | This blog |
+| Topic | Working title | Author | Publish date | Location | Idea |
+|---|---|---|---|---|---|
+| AI SDLC | How AI changes the traditional SDLC | Tim Cochran + Cassie Shum | June 13th | This blog or Martin's, reference from Martin's fragments | [#5](https://studio-ai-one.vercel.app/routeburn/devex/blog/ideas/5) |
+| Max Effectiveness | Revising Maximizing Developer Effectiveness in AI Era | Tim Cochran + Cassie Shum | June 13th | This blog or Martin's, reference from Martin's fragments | [#6](https://studio-ai-one.vercel.app/routeburn/devex/blog/ideas/6) |
+| Knowledge Graph | From Retrieval to Reasoning | Cassie Shum | TBD | This blog | [#7](https://studio-ai-one.vercel.app/routeburn/devex/blog/ideas/7) |
+| Feedback | Return of the desk check | Tim Cochran | TBD | This blog | [#8](https://studio-ai-one.vercel.app/routeburn/devex/blog/ideas/8) |
 
 
 ## How to use

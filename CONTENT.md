@@ -1,0 +1,16 @@
+# Content calendar
+
+The blog focuses on **developer effectiveness and AI-native development**. Posts that don't fit that lens shouldn't go on the calendar.
+
+| Topic | Working title | Author | Publish date | Location |
+|---|---|---|---|---|
+| AI readiness for DevEx / platform | AI Readiness Check | Tim Cochran | TBD | This blog |
+| Spec feedback in an agent-driven world | Return of the Desk Check | Tim Cochran | TBD | This blog |
+| What developer productivity actually means | An exploration of developer productivity | Tim Cochran | TBD | This blog |
+| Why measuring developer productivity is hard | The problems with measuring developer productivity | Tim Cochran | TBD | This blog |
+| What actually slows developers down | What really affects developer productivity | Tim Cochran | TBD | This blog |
+
+Notes:
+- Drafts live in `web/src/content/posts/*.md` with `draft: true`. Flip to `false` (or remove the line) and they'll list on the homepage and RSS.
+- Add a row above the table when you start a new idea — no need to wait until there's a file.
+- "Location" is usually this blog but can be a guest post, newsletter, conference talk, etc.

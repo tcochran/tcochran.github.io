@@ -8,7 +8,11 @@ We are going to start the series by exploring some of the hypotheses from the or
 
 ## Developers are still critical in software development
 
-Previously it was key to focus on the sentiment and happiness of developers: a happy developer is a productive one. They are expensive and difficult to hire, so creating an environment that nurtured their talents was key. If agents are doing the “coding”, do we need a developer role anymore? When you look at hyperbolic reports of projects being written entirely by agents, with “no coding” being reported, if you examine closely there are developers and architects driving and feeding those agents. Some of the misunderstanding comes with the “coding” task. Developers are understanding requirements with colleagues and customers. They are considering, designing, and giving technical instructions (although not always in code), reviewing code and debugging issues. They even contribute product ideas. These are tasks that have always been a part of developing software. The danger here is that if you equate the developer to a coder, it becomes understandable why the developer role might be questioned. 
+Before AI, it was key to focus on the sentiment and happiness of developers: a happy developer is a productive one. They are expensive and difficult to hire, so creating an environment that nurtured their talents mattered. But if agents are doing the “coding”, do we need a developer role anymore? When you look at hyperbolic reports of projects being written entirely by agents, with “no coding” being reported, if you examine closely there are developers and architects driving and feeding those agents.
+
+Some of the misunderstanding comes from what we mean by “coding”. Taken narrowly, as the act of writing the code, it is only one ingredient of the job, albeit a very important one. Developers are still gathering requirements with colleagues and customers. They are considering, designing, and giving technical instructions (although not always in code), reviewing code and debugging issues. They even contribute product ideas. These are tasks that have always been a part of developing quality and valuable software.
+
+The danger here is that if we equate the developer to a coder, a coding robot that just fulfills requirements, it becomes understandable why the developer role might be questioned, and easy to miss everything else the developer was doing. 
 
 However, the shape of work developers do day-to-day has changed. It is easier. In a team using AI effectively, the low value tasks have gone. No longer do developers have to remember APIs, syntax, or basic algorithms, and they don’t have to spend time on tedious tasks like fixing the build, creating unit tests, or examining logs to debug issues. In addition, LLMs and coding agents have reached a quality where a well scoped, simple task with a clear specification and an efficient harness can be written entirely by an agent. This increases the need to be clear and more detailed on the requirements of a task. 
 AI agents are more than purely execution machines; they can also help developers innovate, assisting ideation, performing research, doing quick prototypes, or just being a rubber duck to keep the developer focused. 
@@ -56,5 +60,7 @@ I hear a lot about "coding is not the bottleneck anymore", or "coding is now fre
 ## What's next
 
 This is the first piece in a series. In the next ones I will look at how the day to day SDLC changes when agents are doing most of the execution, what the Factory vs Studio framing tells us about where AI fits in the team, and the patterns I have seen in teams that have made the jump. These are observations from teams I have worked with, not a finished theory. I will be wrong about plenty. The point is to put it all down while it is fresh, and build from there.
+
+
 
 

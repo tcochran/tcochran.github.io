@@ -8,6 +8,8 @@ The blog focuses on **developer effectiveness and AI-native development**. Posts
 | Max Effectiveness | Revising Maximizing Developer Effectiveness in AI Era | Tim Cochran + Cassie Shum | June 13th | This blog or Martin's, reference from Martin's fragments | [#6](https://studio-ai-one.vercel.app/routeburn/devex/blog/ideas/6) |
 | Knowledge Graph | From Retrieval to Reasoning | Cassie Shum | TBD | This blog | [#7](https://studio-ai-one.vercel.app/routeburn/devex/blog/ideas/7) |
 | Feedback | Return of the desk check | Tim Cochran | TBD | This blog | [#8](https://studio-ai-one.vercel.app/routeburn/devex/blog/ideas/8) |
+| Day in the life | A day in the life of an agentic developer | Tim Cochran | TBD | This blog | TBD |
+| Feedback & metrics | Feedback loops and metrics in an agentic era | Tim Cochran | TBD | This blog | TBD |
 
 
 ## How to use

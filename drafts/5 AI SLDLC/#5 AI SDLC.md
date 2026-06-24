@@ -2,7 +2,7 @@ Continuing the exploration of what maximizing developer effectiveness means in t
 
 When we think about it, there is a trap, where we take the current SDLC, with our current process and tools, and throw AI at it to optimize. This is a reasonable first step, it will work and provide benefits, as the AI agents are very good at mimicking what Humans do. However, it will be efficient and involve a lot of constant supervision and interventions from the developer. It won’t provide that 10X productivity improvement that is promised.  
 
-My original article I started with a low/high effectiveness day in the life, I will attempt to repeat that in for the AI era, based on the frontier teams and platforms I have worked with and researched. Reflecting the rate of change and innovation at the moment, I fully expect this to generate lots of conflicting opinions and be out of date very soon\!
+My original article I started with a low/high effectiveness day in the life, I will attempt to repeat that in for the AI era, based on the most advanced teams and platforms I have worked with and researched. Reflecting the rate of change and innovation at the moment, I fully expect this to generate lots of conflicting opinions and be out of date very soon\!
 
 For the team that I would regard as highly productive, with a high throughput 5-10 PRs a week per developer. There are a lot of problems with this metric which we will explore in a future article. However, a team increasing their PRs dramatically, is interesting. It is a team you should talk to, to understand if their value to customers, and customer satisfaction has increased similarly. 
 

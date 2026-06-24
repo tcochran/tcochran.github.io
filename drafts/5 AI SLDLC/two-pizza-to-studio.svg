@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 730 250" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+
+  <!-- LEFT: two-pizza team, 8-12 people -->
+  <text x="155" y="56" text-anchor="middle" font-size="14" font-weight="700" fill="#334155">Two-pizza team</text>
+  <rect x="50" y="72" width="210" height="120" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <g fill="#94a3b8">
+    <circle cx="86" cy="110" r="11"/><circle cx="123" cy="110" r="11"/><circle cx="160" cy="110" r="11"/><circle cx="197" cy="110" r="11"/><circle cx="234" cy="110" r="11"/>
+    <circle cx="86" cy="154" r="11"/><circle cx="123" cy="154" r="11"/><circle cx="160" cy="154" r="11"/><circle cx="197" cy="154" r="11"/><circle cx="234" cy="154" r="11"/>
+  </g>
+  <text x="155" y="216" text-anchor="middle" font-size="12.5" font-style="italic" fill="#6b7280">8-12 people, one fixed team</text>
+
+  <!-- ARROW -->
+  <polygon points="300,124 388,124 388,113 420,132 388,151 388,140 300,140" fill="#111827"/>
+  <text x="360" y="104" text-anchor="middle" font-size="12" font-style="italic" fill="#6b7280">with AI</text>
+
+  <!-- RIGHT: one cross-functional pod -->
+  <text x="575" y="56" text-anchor="middle" font-size="14" font-weight="700" fill="#0f766e">Pod</text>
+  <rect x="470" y="72" width="210" height="120" rx="14" fill="#ffffff" stroke="#0d9488" stroke-width="1.5"/>
+  <g fill="#64748b">
+    <circle cx="512" cy="118" r="13"/><circle cx="560" cy="118" r="13"/><circle cx="608" cy="118" r="13"/>
+  </g>
+  <rect x="644" y="105" width="26" height="26" rx="5" fill="#14b8a6"/>
+  <g text-anchor="middle" font-size="9.5" fill="#475569">
+    <text x="512" y="152">product</text>
+    <text x="560" y="152">design</text>
+    <text x="608" y="152">dev</text>
+    <text x="657" y="152">agent</text>
+  </g>
+  <text x="575" y="216" text-anchor="middle" font-size="12.5" font-style="italic" fill="#6b7280">one cross-functional pod, plus an agent</text>
+</svg>
